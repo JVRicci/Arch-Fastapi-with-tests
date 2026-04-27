@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 import pytest
 from pytest import mark
-from src.main.server.server import app
+from src.server import app
 
 
 @pytest.fixture
