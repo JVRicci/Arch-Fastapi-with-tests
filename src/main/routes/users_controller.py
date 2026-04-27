@@ -3,8 +3,6 @@ from fastapi.responses import JsonResponse
 
 users_controller = APIRouter(tags=["Users"])
 
-users_list = []
-
 
 @users_controller.post("/users")
 async def create_user():
