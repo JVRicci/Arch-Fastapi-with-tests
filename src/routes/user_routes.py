@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
-from src.validators.user_register_validator import UserRegisterValidator
+from src.schema.user_schema import UserRegisterValidator
 from src.controllers import user_controller
 
 user_routes = APIRouter(prefix="/users", tags=["users"])

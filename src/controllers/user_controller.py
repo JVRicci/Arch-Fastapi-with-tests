@@ -1,4 +1,4 @@
-from src.validators.user_register_validator import UserRegisterValidator
+from src.schema.user_schema import UserRegisterValidator
 
 
 def create_user(body: UserRegisterValidator):
